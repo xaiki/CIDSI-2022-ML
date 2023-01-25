@@ -1,0 +1,35 @@
+#+TITLE: Adentrandose en Redes Neuronales
+#+SUBTITLE: CIDSI 2022
+
+"Cualquier ciencia bastante avanzada es indistinguible de la magia"
+Las redes neuronales dan super poderes a las computadoras, parecen 'magicamente'
+aprender a hacer tareas que son muy dificiles de programar imperativamente,
+reconocimiento de imagenes, de voz, interpretacion de texto, transferencia de
+estilo, reconstruccion de fondos o de rostros, estimacion de pose, son hoy
+moneda comuna pero parecian completamente insonables hace unos anos.
+
+El modelo clasico de construccion de applicaciones de IA/ML suele ser la del
+'modelo en el servidor' donde toda la inteligencia de negocio esta en un
+'modelo' que se guarda del lado de la empresa proveedora y se accede a traves de
+una API. Si bien existe investigacion sobre 'inferencia cifrada', sigue siendo
+minoritaria, por locual esta practica presenta obvios problemas para tratamiento
+de datos sensibles ya que tienen que ser descodificados en el servidor.
+
+Existe otra via de investigacion que busca correr el modelo en la maquina de la
+persona interesada, para alinearse a este movimiento los celulares modernos
+tienen silicona dedicada para la acceleracion de operaciones vectoriales usadas
+para la computacion de redes neuronales. Pero la tecnologia mas comun en todas
+las plataformas de computacion sigue siendo el navegador. Por esto en este
+taller nos limitaremos a correr modelos en el mismo navegador.
+
+* lecturas
+** librerias usadas
+https://www.tensorflow.org/js
+https://keras.io/api
+https://svelte.dev/
+** conceptos generales
+https://setosa.io/ev/image-kernels/
+https://cs231n.github.io/
+** MNIST y arquitectura
+https://codelabs.developers.google.com/codelabs/tfjs-training-classfication/index.html
+https://jati.sites.apiit.edu.my/files/2021/01/MNIST-Handwritten-Digit-Recognition-with-Different-CNN-Architectures.pdf
